@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faf2fcf4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Размещаем карточки в ряд */
+    gap: 20px; /* Отступы между карточками */
+    align-items: center;
+}
+
+.box-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-box {
+    font-family: Calibri, sans-serif;
+    padding-top: 10px;
+}
+
+.text-box h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.text-box ul {
+    padding: 0;
+    list-style: none;
+}
+
+.text-box li {
+    font-size: 14px;
+}
